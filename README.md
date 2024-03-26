@@ -3,7 +3,7 @@
 This template is intended to be used with the tutorial "Solid JS - Basic Routing".
 http://carlbecker.dev/...
 
-> This is a template for a tutorial on Solid Router and is customized to that purpose. It is not intended nor appropriate as a starting live for a real-life production project.
+> This is a template for a tutorial and is customized to that purpose. It is not intended nor appropriate as a starting point live for a real-life production project.
 
 ## Usage
 
