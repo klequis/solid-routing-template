@@ -21,7 +21,6 @@ npx degit solidjs/templates/js solid-routing-basic
 2. Delete these files
 
 - src/logo.svg
-- src/index.css (Be carefull not to accidently delete`index.jsx`.)
 - src/App.module.css
 
 3. Install Bootstrap
@@ -30,7 +29,27 @@ npx degit solidjs/templates/js solid-routing-basic
 pnpm i bootstrap
 ```
 
-4. Replace the code in App.jsx with this:
+4. Replace the code in index.css with this:
+
+```css
+.app {
+  padding: 15px;
+}
+
+.home {
+  margin-left: 15px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 15px;
+}
+```
+
+5. Replace the code in App.jsx with this:
 
 ```jsx
 export default function App() {
@@ -44,7 +63,7 @@ export default function App() {
 }
 ```
 
-5. Replace the code in `index.jsx` with this:
+6. Replace the code in `index.jsx` with this:
 
 ```jsx
 /* @refresh reload */
