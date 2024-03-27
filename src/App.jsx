@@ -1,6 +1,7 @@
 export default function App() {
+  console.log('App props:', props);
   return (
-    <div class="container" style="padding: 15px">
+    <div class="app">
       <div class="card">
         <h1>App</h1>
       </div>

@@ -76,6 +76,44 @@ const root = document.getElementById('root');
 render(() => <App />, root);
 ```
 
+7. Create a folder under source named "pages"
+
+
+8. Create `Home.jsx`
+
+```jsx
+export default function Home() {
+  return (
+    <div class="card child">
+      <h1>Home</h1>
+    </div>
+  );
+}
+```
+
+9. Create `NotFound.jsx`
+```jsx
+export default function NotFound() {
+  return (
+    <div class="card child">
+      <h1>NotFound</h1>
+    </div>
+  );
+}
+```
+
+10. Create `User.jsx`
+
+```jsx
+export default function User() {
+  return (
+    <div class="card child">
+      <h1>User</h1>
+    </div>
+  );
+}
+```
+
 ## Ready to go
 
 That's all you need to do. You are ready to start the [link NOT PUBLISHED YET link] tutorial.
