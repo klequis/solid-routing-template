@@ -2,7 +2,7 @@
   padding: 15px;
 }
 
-.home {
+.child {
   margin-left: 15px;
 }
 
@@ -12,4 +12,15 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 15px;
   margin-bottom: 15px;
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+nav a {
+  margin-right: 15px;
 }
