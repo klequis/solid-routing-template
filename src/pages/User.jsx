@@ -1,7 +1,7 @@
 export default function User() {
   return (
     <div class="card child">
-      <h1>User</h1>
+      <h2>User</h2>
     </div>
   );
 }
